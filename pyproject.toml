@@ -1,0 +1,18 @@
+[project]
+name = "symmetria-core"
+version = "0.0.0"
+description = "Core Python package for Project Symmetria (skeleton)."
+authors = [{ name = "Nuno Cabral"}]
+readme = "README.md"
+requires-python = ">=3.11"
+
+[tool.black]
+line-length = 88
+
+[tool.flake8]
+max-line-length = 88
+extend-ignore = ["E203"]
+
+[tool.pytest.ini_options]
+addopts = "-q"
+testpaths = ["tests"]
