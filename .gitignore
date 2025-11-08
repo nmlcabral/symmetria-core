@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.eggs/
+
+# Virtual envs
+.venv/
+venv/
+
+# Jupyter (not used here, but ignore just in case)
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# VS Code
+.vscode/
+.history/
+
+# Data (no big data in core)
+data/
+!data/README.md
